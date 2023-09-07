@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-
-for char_code in range(ord('a'), ord('z') + 1):
-    print("{}".format(chr(char_code)), end="")
+for i in range(97, 123):
+    if chr(i) == 'e' or chr(i) == 'q':
+        continue
+    print("{}".format(chr(i)), end="")
