@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+s1 = "good"
+s2 = "evening"
+
+good_evening = "{} {}".format(s1, s2)
+
+#You can also say "good_evening = "{%s} {%s}".format(s1, s2)
+
+print(good_evening)

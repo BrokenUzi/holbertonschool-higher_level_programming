@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+speed = 20
+units = " km/h"
+speed_output = str(speed) + units
+
+print(speed_output)

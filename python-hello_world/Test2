@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+name_list = ["Kamala", "Mary", "Sarah"]
+
+names_output = ", ".join(name_list)
+
+print(names_output)
