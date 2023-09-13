@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 def print_reversed_list_integer(my_list=[]):
-	main_length = len(my_list)
 
-	new_new = my_list[:]
+	if idx < 0 or idx >= len(my_list):
+		return my_list[:]
 
-	if 0 <= idx <main_length:
-		new_new[idx] = element
+	new_list = my_list[:]
 
-	return(new_new)
+	new_list[idx] = element
+
+	return new_list
