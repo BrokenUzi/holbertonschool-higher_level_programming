@@ -1,4 +1,7 @@
 #!/usr/bin/python3
 class Square:
-	def Square(square):
-		print(type(square))
+	pass
+
+square = Square()
+square.name = 'Sq'
+print(square)
