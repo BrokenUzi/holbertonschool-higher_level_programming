@@ -1,6 +1,4 @@
 #!/usr/bin/python3
 class Square:
-
-	def sqaure(Square):
+	def Square(square):
 		print(type(square))
-square = Square()
