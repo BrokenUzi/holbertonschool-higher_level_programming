@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 class Square:
 	pass
-def Square():
+def Square(self):
 	pass
 
 square = Square()
