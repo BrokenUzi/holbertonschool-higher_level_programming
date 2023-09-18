@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 class Square:
 	pass
-
-square = Square()
-square.name = 'Sq'
-square.root = "No"
-print(square)
+def Square(self):
+	square = Square()
+	square.name = 'Sq'
+	print(square)
