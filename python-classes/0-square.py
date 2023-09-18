@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""Define a class named Square"""
+"Define a class named Square"
 
 
 class Square:
-	"""Square is defined"""
+	"Square is defined"
 
 	pass
