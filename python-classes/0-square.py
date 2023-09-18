@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 class Square:
-	"Square is defined"
+	"""Square is defined"""
 	pass
