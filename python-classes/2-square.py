@@ -1,12 +1,8 @@
 #!/usr/bin/python3
-"Define a Square"
+"Define a class named Square"
+
 
 class Square:
-	def __init__(self, size=0):
-		self.size = size
+	"Square is defined"
 
-if size < 0:
-	print("size must be an integer")
-
-elif size > 0:
-	print("size must be >= 0")
+	pass
