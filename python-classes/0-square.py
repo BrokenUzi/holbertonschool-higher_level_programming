@@ -4,4 +4,4 @@ class Square:
 
 square = Square()
 square.name = 'Sq'
-print(square)
+print(type(square))
