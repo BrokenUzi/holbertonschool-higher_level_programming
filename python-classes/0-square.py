@@ -2,6 +2,8 @@
 class Square:
 	pass
 def Square():
-	square = Square()
-	square.name = 'Sq'
-	print(square)
+	pass
+
+square = Square()
+square.name = 'Sq'
+print(square)
