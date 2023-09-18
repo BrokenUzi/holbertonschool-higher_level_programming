@@ -4,4 +4,5 @@ class Square:
 
 square = Square()
 square.name = 'Sq'
-print(type(square))
+square.root = "No"
+print(square)
