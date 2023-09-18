@@ -5,5 +5,5 @@ class Square:
 	"Square is being represented"
 
 	def __init__(self, size):
-		"size (int)"
+		"size (int):"
 		self.__size = size
