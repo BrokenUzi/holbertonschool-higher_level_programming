@@ -1,7 +1,4 @@
 #!/usr/bin/python3
 class Square:
+	"Square is defined"
 	pass
-
-square = Square()
-square.name = 'Sq'
-print(square)
