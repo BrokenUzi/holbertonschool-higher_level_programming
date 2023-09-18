@@ -4,8 +4,8 @@ class Square:
 	"""Defines Square Class with __size"""
 
 	def __init__(self, size=0):
-	"""__size (int):"""
-	if not isinstance(size, int):
+		"""__size (int):"""
+		if not isinstance(size, int):
 		"""Checks if size value is an int. If it's not an int, a TypeError occurs demanding an int."""
 		raise TypeError("size must be an integer")
 	elif size < 0:
@@ -15,5 +15,5 @@ class Square:
 		self.__size = size
 
 	def area(self):
-	"""Returns the current square area."""
+		"""Returns the current square area."""
 		return self.__size ** 2
