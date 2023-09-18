@@ -12,8 +12,5 @@ class Square:
 		"Checks if size int is greater than 0. It'll raise a type error if not > 0"
 		raise TypeError("size must be >= 0")
 
-	else:
-		self.__size = size
-
 self._size = size
 "Sets size of square"
