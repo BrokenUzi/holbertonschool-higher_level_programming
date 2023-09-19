@@ -38,13 +38,15 @@ class Square:
 
 	def area(self):
 		""" Area """
-		return (self.__size ** 2)
+		return self.__size ** 2
 
 	def my_print(self):
 		""" Prints the square """
 		if self.__size == 0:
 			print()
-		for row in range(self.__size):
+		else:
+
+			for row in range(self.__size):
+				print()
 			for collum in range(self.__size):
-				print("#", end="")
-			print()
+				print(" " * self.__position[0] + "#" * self.__size)
