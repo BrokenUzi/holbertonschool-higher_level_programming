@@ -25,7 +25,7 @@ class Square:
 		""" Area """
 		return (self.__size ** 2)
 
-	def _notprinting(self):
+	def my_print(self):
 		""" Prints the square """
 		if self.__size == 0:
 			print()
