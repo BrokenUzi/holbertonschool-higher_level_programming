@@ -45,15 +45,16 @@ class Rectangle:
 
 	def perimeter(self):
 		""" Initialize Perimeter """
-	if self.__width == 0 or self.__height == 0:
-		return 0
-	return (2 * (self.__width + (2 * self.__height))
+		if self.__width == 0 or self.__height == 0:
+			return 0
+		return (2 * (self.__width + (2 * self.__height)))
 
-    def __str__(self):
-        if self.__width == 0 or self.__height == 0:
-            return ""
-        else:
-            rect_str = ""
-            for _ in range(self.__height):
-                rect_str += "#" * self.__width + "\n"
-            return rect_str[:-1]
+	def __str__(self):
+		""" String version of the rectangle """
+		if self.__width == 0 or self.__height == 0:
+            		return ""
+		else:
+			rect_str = ""
+			for _ in range(self.__height):
+				rect_str += "#" * self.__width + "\n"
+			return rect_str[:-1]
