@@ -1,0 +1,31 @@
+''add_integer''
+================
+
+''add_integer can add two integers or two floats''
+
+''Module Usage'':
+-----------------
+
+To import:
+>>> add_integer = __import__('0-add_integer').add_integer
+
+Examples:
+=========
+
+	>>> add_integer(10, 5)
+	15
+
+	>>> add_integer(1.8, 2.2)
+	3
+
+Note:
+=====
+
+	>>> B is 89 by default if there is no value
+	>>> It will not tolerate aything other than integers and floats.
+
+Example:
+========
+
+	>>> add_integer(20)
+	109
