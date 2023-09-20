@@ -47,16 +47,13 @@ class Rectangle:
 		""" Initialize Perimeter """
 	if self.__width == 0 or self.__height == 0:
 		return 0
-	return ((2 * self.__width) + (2 * self.__height))
+	return (2 * (self.__width + (2 * self.__height))
 
 	def __str__(self):
-		""" string representation of Rectangle class object """
-	if self.__width == 0 or self.__height == 0:
-		return ""
+		if self.__width == 0 or self.__height == 0:
+			return ""
 	else:
-		for row in range(self.__height):
-			for collum in range(self.__width):
-				print("#", end="")
-		if row < self.__height - 1:
-			print()
-	return ""
+		__str__ = ""
+		for height in range(self.__height):
+			__str__ += "#" * self.__width
+		return __str__[:-1]
