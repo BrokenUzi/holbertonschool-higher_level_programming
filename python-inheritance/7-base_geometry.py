@@ -3,7 +3,9 @@
 
 class BaseGeometry:
 	""" A class that raises an exception """
+
 	def area(self):
+		""" Literally says Error because "area() is not implemented" """
 		raise Exception("area() is not implemented") #Exception message
 
 	def integer_validator(self, name, value):
