@@ -2,7 +2,7 @@
 """ Reads a file """
 
 def read_file(filename=""):
-	""" Rwads UTF8 txt file """
-	with open(filename, 'r' encoding="utf8") as NotAFileWinkWink:
+	""" Reads UTF-8 txt file """
+	with open(filename, 'r', encoding="utf-8") as NotAFileWinkWink:
 		for line in NotAFileWinkWink:
-			print(linje, end="")
+			print(line, end="")
